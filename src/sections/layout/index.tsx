@@ -20,7 +20,12 @@ export default function Layout({ children }: PropsWithChildren) {
             main: MAIN_THEME_COLOR,
           },
           secondary: {
-            main: isDarkMode ? "#424242" : "#ffffff",
+            main: isDarkMode ? "#476f95" : "#ffffff",
+          },
+
+          background: {
+            default: isDarkMode ? "#194a7a" : "",
+            paper: isDarkMode ? "#1e1e1e" : "#ffffff",
           },
         },
       }),

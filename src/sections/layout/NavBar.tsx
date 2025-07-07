@@ -42,7 +42,7 @@ export default function NavBar({ darkMode, switchDarkMode }: Props) {
         position="static"
         sx={{
           zIndex: (theme) => theme.zIndex.drawer + 1,
-          backgroundColor: darkMode ? "#19191c" : "white",
+          backgroundColor: darkMode ? "#194a7a" : "white",
           color: darkMode ? "white" : "black",
         }}
         enableColorOnDark
@@ -76,22 +76,12 @@ export default function NavBar({ darkMode, switchDarkMode }: Props) {
                 fontSize: { xs: "1rem", sm: "1.25rem" },
               }}
             >
-              Chesskit
+              Chess Analysys
             </Typography>
           </NavLink>
 
           <StyledIconButtonLink
-            href="https://discord.gg/Yr99abAcUr"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <IconButton color="inherit" component="span">
-              <Icon icon="ri:discord-fill" />
-            </IconButton>
-          </StyledIconButtonLink>
-
-          <StyledIconButtonLink
-            href="https://github.com/GuillaumeSD/Chesskit"
+            href="https://github.com/rpralica/ChessAnalysisApp"
             target="_blank"
             rel="noopener noreferrer"
             sx={{ ml: "min(0.6rem, 0.8vw)" }}
